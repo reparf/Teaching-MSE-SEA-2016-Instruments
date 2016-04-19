@@ -35,5 +35,10 @@ public class Flute implements IInstrument{
      * @return
      */
     @Override
+    public String getColor()
+    {
+        this.color = "green";
+        return color;
+    }
     
 }
